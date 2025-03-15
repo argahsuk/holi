@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        *{
+            margin: 0;padding: 0; 
+            background-color: black;
+        }
+        .main{
+            background: rgb(182, 31, 190);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height:12vh ;
+            border: .7vh black solid;
+            border-radius: 17px ;
+            z-index: 100;
+        }
+       video{
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        z-index: 9;
+       }
+        button{
+            background: rgb(82, 226, 183);
+            border-radius: 1.5vh;
+            z-index: 100;
+            padding: 10px 20px;
+        }
+        form{
+            background: rgb(243, 250, 141);
+        }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi!</title>
+</head>
+<body>
+    <div class="main">
+        <form action="greet.html" method="get">
+            <button type="submit" value="Name">Touch me</button>
+        </form>
+    </div>
+    <video src="WhatsApp Video 2025-03-15 at 10.42.50_32707fa0.mp4" autoplay loop preload="auto" muted>net on kijiye</video>
+</body>
+</html>
